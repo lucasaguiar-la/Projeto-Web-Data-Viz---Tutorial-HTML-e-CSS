@@ -51,9 +51,12 @@ body {
 }
 
 .titulo {
-  color: #32b9cd;
+  color: white;
   width: fit-content;
   font-weight: 500;
+}
+.titulo span {
+  color: #b30101;
 }
 
 .header h1 {
@@ -65,7 +68,7 @@ body {
 .banner {
   height: var(--tamanho-banner);
   color: white;
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+  background-image: url('../assets/imgs/pato-banner.jpg');
   background-size: cover;
 }
 
@@ -80,10 +83,55 @@ body {
   margin: 0;
   padding: 0;
   font-size: 36px;
+  color: #f76b2b;
+  filter: drop-shadow(1px 1px 4px black);
 }
 
 .banner .container span {
   font-weight: 800;
+}
+
+/* NOVA SESSAO */
+
+.nova-sessao {
+  width: 100%;
+  background-color: #ffb95d96;
+}
+.nova-sessao .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caixa-cardizinho{
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.cardizinho {
+  padding: 10px;
+  margin: 10px;
+  width: 65%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  gap: 20px;
+  background-color: #e3b062;
+}
+.cardizinho img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.cardizinho p{
+  width: 70%;
+  color: black;
+  text-align: center;
 }
 
 /* MISSÃO VISÃO VALORES */
@@ -98,12 +146,15 @@ body {
 }
 
 .box img {
-  width: 170px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #dadada;
 }
 
 .social .container .boxes {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   width: 100%;
   padding: 30px 0;
 }
@@ -113,9 +164,12 @@ body {
 }
 
 .box {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  background-color: #979797;
 }
 
 /* FOOTER */
@@ -136,6 +190,24 @@ body {
 .footer .container .version {
   font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* LOGIN */
 
